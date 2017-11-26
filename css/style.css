@@ -63,6 +63,23 @@
     background-position: center;
     position: absolute;
     top: 260px;
-    left: 900px; }
+    left: 845px; }
+
+.text h2 {
+  color: #222626;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 113px; }
+.text p {
+  color: #959595;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 30px 0; }
+.text .text-under-iphone {
+  margin-top: 239px; }
 
 /*# sourceMappingURL=style.css.map */
