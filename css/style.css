@@ -1,4 +1,68 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+.container {
+  width: 1230px; }
+
+.masthead {
+  background: url("http://i64.tinypic.com/rk0dhk.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .masthead nav {
+    background: initial;
+    border: none;
+    padding-top: 50px; }
+    .masthead nav .navbar-brand {
+      color: #ffffff;
+      font-family: 'Merriweather', serif;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 20.8px;
+      letter-spacing: -0.24px;
+      font-style: italic;
+      text-transform: lowercase;
+      position: relative;
+      left: 50px; }
+      .masthead nav .navbar-brand:before {
+        content: url("http://i66.tinypic.com/316q1ph.png");
+        position: absolute;
+        left: -35px;
+        top: 3px; }
+      .masthead nav .navbar-brand:hover {
+        color: white; }
+    .masthead nav .navbar-nav li a {
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 20px;
+      transition: .5s; }
+      .masthead nav .navbar-nav li a:hover, .masthead nav .navbar-nav li a:focus {
+        color: black;
+        background: rgba(255, 255, 255, 0.2); }
+  .masthead h1 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 350px; }
+  .masthead p {
+    width: 450px;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 380px; }
+  .masthead .iphone {
+    width: 600px;
+    height: 990px;
+    background: url("http://i63.tinypic.com/op2o9l.png");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 260px;
+    left: 900px; }
 
 /*# sourceMappingURL=style.css.map */
