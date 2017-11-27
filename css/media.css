@@ -1,4 +1,12 @@
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
+  .masthead .navbar-nav li a {
+    border-radius: 5px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
+    .masthead .navbar-nav li a:hover, .masthead .navbar-nav li a:focus {
+      color: black;
+      background: rgba(255, 255, 255, 0.2); }
   .masthead .iphone {
     width: 700px;
     height: 990px;
@@ -7,25 +15,26 @@
     background-position: center;
     position: absolute;
     top: 260px;
-    left: 47%; } }
-@media (min-width: 992px) {
-  .masthead .navbar-nav li a {
-    border-radius: 5px;
-    transition: .5s; }
-    .masthead .navbar-nav li a:hover, .masthead .navbar-nav li a:focus {
-      color: black;
-      background: rgba(255, 255, 255, 0.2); }
+    left: 47%; }
 
+  .text .container {
+    position: relative; }
   .text .text-under-iphone {
-    margin-top: 145px; }
+    position: absolute;
+    bottom: 0;
+    right: 0; }
 
   .buying .mark-1, .buying .mark-2 {
     background-color: #e1e1e1; }
   .buying .card {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
     background-color: inherit;
+    -webkit-box-shadow: none;
     box-shadow: none; }
     .buying .card:hover {
+      -webkit-box-shadow: 0 0 62px rgba(0, 0, 0, 0.05);
       box-shadow: 0 0 62px rgba(0, 0, 0, 0.05);
       background-color: #ffffff; }
     .buying .card:hover .mark-1, .buying .card:hover .mark-2 {

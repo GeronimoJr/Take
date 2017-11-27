@@ -1,40 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,400i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: "Open Sans", sans-serif; }
 
 .container {
   max-width: 1230px; }
 
 h1 {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 60px;
   font-weight: 300; }
 
 h2 {
   color: #222626;
-  font-family: "Open Sans";
   font-size: 35px;
   font-weight: 300;
   line-height: 24px; }
 
 h3 {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 30px;
   font-weight: 300; }
 
 h4 {
   color: #67676d;
-  font-family: "Open Sans - Semibold";
+  font-family: "Open Sans - Semibold", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px; }
 
 p {
   color: #ffffff;
-  font-family: "Open Sans";
   font-size: 13px;
   font-weight: 400;
   line-height: 24px; }
@@ -67,16 +64,15 @@ p {
         left: -35px;
         top: 3px; }
       .masthead nav .navbar-brand:hover {
-        color: white; }
+        color: #ffffff; }
     .masthead nav .navbar-nav li a {
       text-align: center;
-      color: white;
-      font-family: 'Open Sans', sans-serif;
+      color: #ffffff;
       font-size: 20px; }
   .masthead h1 {
     margin-top: 350px; }
   .masthead p {
-    width: 450px;
+    max-width: 450px;
     margin-top: 20px;
     margin-bottom: 380px; }
 
@@ -91,19 +87,21 @@ p {
 .box-grid {
   margin-top: 53px; }
   .box-grid .container-fluid h3 {
-    padding-top: 51px;
-    margin: 0; }
+    margin: 0;
+    padding-top: 40px; }
   .box-grid .container-fluid p {
+    max-width: 438px;
     padding-top: 24px; }
   .box-grid .container-fluid a {
     display: inline-block;
     color: #ffffff;
-    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 59px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s; }
     .box-grid .container-fluid a span {
       font-family: "Arial MT";
@@ -112,7 +110,7 @@ p {
       text-decoration: none;
       font-size: 20px; }
   .box-grid .container-fluid .fa {
-    color: white;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 400;
     position: absolute;
@@ -130,6 +128,8 @@ p {
     background-position: center;
     position: relative;
     opacity: .8;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s; }
     .box-grid .container-fluid .our-clients:hover {
       opacity: 1; }
@@ -141,8 +141,9 @@ p {
     background-position: center;
     position: relative;
     opacity: .8;
-    transition: .5s;
-    padding-right: 320px; }
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
     .box-grid .container-fluid .sign-up:hover {
       opacity: 1; }
     .box-grid .container-fluid .sign-up .fa {
@@ -155,6 +156,8 @@ p {
     background-position: center;
     position: relative;
     opacity: .8;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s; }
     .box-grid .container-fluid .get-start:hover {
       opacity: 1; }
@@ -179,18 +182,20 @@ p {
   position: relative;
   padding-top: 425px; }
   .full-image h1 {
-    width: 495px;
+    max-width: 495px;
     margin-bottom: 30px; }
   .full-image p {
-    width: 438px; }
+    max-width: 438px; }
   .full-image a {
     display: inline-block;
     color: #ffffff;
-    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     margin-top: 25px;
+    margin-bottom: 50px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s; }
     .full-image a span {
       font-family: "Arial MT";
@@ -217,11 +222,13 @@ p {
   background-color: #f6f7fa;
   padding-top: 103px;
   padding-bottom: 50px; }
+  .buying .col-md-6 {
+    margin: 0 auto; }
   .buying h3 {
     color: #2e3b4e;
     margin-bottom: 20px; }
   .buying p {
-    width: 411px;
+    max-width: 411px;
     color: #8297a7;
     font-size: 14px;
     margin-bottom: 20px; }
@@ -232,7 +239,6 @@ p {
     border-radius: 3px;
     background-color: #82ca9c;
     color: #ffffff;
-    font-family: "Open Sans";
     font-size: 13px;
     font-weight: 700;
     line-height: 22px;
@@ -242,21 +248,24 @@ p {
     border-radius: 5px;
     background-color: #bd8cbf;
     color: #ffffff;
-    font-family: "Open Sans - Extrabold";
+    font-family: "Open Sans - Extrabold", sans-serif;
     font-size: 11px;
     font-weight: 400;
     line-height: 22px;
     text-transform: uppercase;
     padding: 8px 0 7px 17px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s; }
   .buying .mark-2 {
     width: 110px;
     padding-left: 13px; }
   .buying .card {
     padding: 45px 0 0 50px;
-    width: 570px;
-    height: 400px;
-    background-color: white;
+    max-width: 570px;
+    min-height: 400px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 62px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 62px rgba(0, 0, 0, 0.05); }
   .buying .fa {
     font-size: 24px;
@@ -268,7 +277,7 @@ p {
   min-height: 600px;
   padding-top: 120px; }
   .footer h4 {
-    color: white;
+    color: #ffffff;
     margin-bottom: 20px; }
   .footer ul {
     list-style-type: none;
@@ -277,10 +286,11 @@ p {
   .footer a {
     text-decoration: none;
     color: #f6f7fa;
-    font-family: "Open Sans";
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
     padding: 0 5px;
     margin-left: -5px; }
