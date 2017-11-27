@@ -7,11 +7,45 @@ $take-red: #f5989d;
 $take-purple: #bd8cbf;
 $take-green: #82ca9c;
 
-// MASTHEAD
-
 .container {
 	width: 1230px;
 }
+h1 {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 60px;
+	font-weight: 300;
+}
+h2 {
+	color: #222626;
+	font-family: "Open Sans";
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 24px;
+}
+h3 {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 30px;
+	font-weight: 300;
+}
+h4 {
+	color: #67676d;
+	font-family: "Open Sans - Semibold";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+}
+p {
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+// MASTHEAD
+
 .masthead {
 	background: url('http://i64.tinypic.com/rk0dhk.jpg');
 	width: 100%;
@@ -61,19 +95,10 @@ $take-green: #82ca9c;
 		}
 	}
 	h1 {
-		color: #ffffff;
-		font-family: "Open Sans";
-		font-size: 60px;
-		font-weight: 300;
 		margin-top: 350px;
 	}
 	p {
 		width: 450px;
-		color: #ffffff;
-		font-family: "Open Sans";
-		font-size: 13px;
-		font-weight: 400;
-		line-height: 24px;
 		margin-top: 20px;
 		margin-bottom: 380px;
 	}
@@ -93,19 +118,11 @@ $take-green: #82ca9c;
 
 .text {
 	h2 {
-		color: #222626;
-		font-family: "Open Sans";
-		font-size: 35px;
-		font-weight: 300;
-		line-height: 24px;
 		margin-top: 113px;
 	}
 	p {
 		color: #959595;
-		font-family: "Open Sans";
 		font-size: 14px;
-		font-weight: 400;
-		line-height: 24px;
 		margin: 30px 0;
 	}
 	.text-under-iphone {
@@ -119,19 +136,10 @@ $take-green: #82ca9c;
 	margin-top: 53px;
 	.container-fluid {
 		h3 {
-			color: #ffffff;
-			font-family: "Open Sans";
-			font-size: 30px;
-			font-weight: 300;
 			padding-top: 51px;
 			margin: 0;
 		}
 		p {
-			color: #ffffff;
-			font-family: "Open Sans";
-			font-size: 13px;
-			font-weight: 400;
-			line-height: 24px;
 			padding-top: 24px;
 		}
 		a {
@@ -208,27 +216,14 @@ $take-green: #82ca9c;
 .four-col {
 	h2 {
 		margin-top: 95px;
-		color: #222626;
-		font-family: "Open Sans";
-		font-size: 35px;
-		font-weight: 300;
-		line-height: 24px;
 	}
 	h4 {
 		margin-top: 65px;
-		color: #67676d;
-		font-family: "Open Sans - Semibold";
-		font-size: 13px;
-		font-weight: 400;
-		line-height: 24px;
+		margin-bottom: 25px;
 	}
 	p {
-		margin-top: 25px;
 		color: #959595;
-		font-family: "Open Sans";
 		font-size: 14px;
-		font-weight: 400;
-		line-height: 24px;
 	}
 }
 
@@ -246,18 +241,9 @@ $take-green: #82ca9c;
 		width: 495px;
 		margin-top: 445px;
 		margin-bottom: 30px;
-		color: #ffffff;
-		font-family: "Open Sans";
-		font-size: 60px;
-		font-weight: 300;
 	}
 	p {
 		width: 438px;
-		color: #ffffff;
-		font-family: "Open Sans";
-		font-size: 13px;
-		font-weight: 400;
-		line-height: 24px;
 	}
 	a {
 		display: inline-block;
@@ -276,5 +262,23 @@ $take-green: #82ca9c;
 			text-decoration: none;
 			font-size: 20px;
 		}
+	}
+}
+
+// COLOUR 
+
+.colour {
+	height: 536px;
+	background-color: $take-green;
+	h3 {
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	h4 {
+		color: #ffffff;
+		margin-bottom: 25px;
+	}
+	p {
+		font-size: 14px;
 	}
 }

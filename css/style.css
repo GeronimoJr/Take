@@ -3,6 +3,39 @@
 .container {
   width: 1230px; }
 
+h1 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-weight: 300; }
+
+h2 {
+  color: #222626;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 24px; }
+
+h3 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-weight: 300; }
+
+h4 {
+  color: #67676d;
+  font-family: "Open Sans - Semibold";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px; }
+
+p {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px; }
+
 .masthead {
   background: url("http://i64.tinypic.com/rk0dhk.jpg");
   width: 100%;
@@ -41,18 +74,9 @@
         color: black;
         background: rgba(255, 255, 255, 0.2); }
   .masthead h1 {
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 60px;
-    font-weight: 300;
     margin-top: 350px; }
   .masthead p {
     width: 450px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px;
     margin-top: 20px;
     margin-bottom: 380px; }
   .masthead .iphone {
@@ -66,18 +90,10 @@
     left: 47%; }
 
 .text h2 {
-  color: #222626;
-  font-family: "Open Sans";
-  font-size: 35px;
-  font-weight: 300;
-  line-height: 24px;
   margin-top: 113px; }
 .text p {
   color: #959595;
-  font-family: "Open Sans";
   font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
   margin: 30px 0; }
 .text .text-under-iphone {
   margin-top: 237px; }
@@ -85,18 +101,9 @@
 .box-grid {
   margin-top: 53px; }
   .box-grid .container-fluid h3 {
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 30px;
-    font-weight: 300;
     padding-top: 51px;
     margin: 0; }
   .box-grid .container-fluid p {
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px;
     padding-top: 24px; }
   .box-grid .container-fluid a {
     display: inline-block;
@@ -163,26 +170,13 @@
       opacity: 1; }
 
 .four-col h2 {
-  margin-top: 95px;
-  color: #222626;
-  font-family: "Open Sans";
-  font-size: 35px;
-  font-weight: 300;
-  line-height: 24px; }
+  margin-top: 95px; }
 .four-col h4 {
   margin-top: 65px;
-  color: #67676d;
-  font-family: "Open Sans - Semibold";
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 24px; }
+  margin-bottom: 25px; }
 .four-col p {
-  margin-top: 25px;
   color: #959595;
-  font-family: "Open Sans";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px; }
+  font-size: 14px; }
 
 .full-image {
   background: url("http://i67.tinypic.com/2eez9t1.jpg");
@@ -195,18 +189,9 @@
   .full-image h1 {
     width: 495px;
     margin-top: 445px;
-    margin-bottom: 30px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 60px;
-    font-weight: 300; }
+    margin-bottom: 30px; }
   .full-image p {
-    width: 438px;
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 24px; }
+    width: 438px; }
   .full-image a {
     display: inline-block;
     color: #ffffff;
@@ -222,5 +207,17 @@
     .full-image a:hover {
       text-decoration: none;
       font-size: 20px; }
+
+.colour {
+  height: 536px;
+  background-color: #82ca9c; }
+  .colour h3 {
+    margin-top: 100px;
+    margin-bottom: 50px; }
+  .colour h4 {
+    color: #ffffff;
+    margin-bottom: 25px; }
+  .colour p {
+    font-size: 14px; }
 
 /*# sourceMappingURL=style.css.map */
