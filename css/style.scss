@@ -85,7 +85,7 @@ $take-green: #82ca9c;
 		background-position: center;
 		position: absolute;
 		top: 260px;
-		left: 793px;
+		left: 47%;
 	}
 }
 
@@ -200,5 +200,34 @@ $take-green: #82ca9c;
 		.get-start {
 			@include image('https://static.pexels.com/photos/671915/pexels-photo-671915.jpeg');
 		}
+	}
+}
+
+// FOUR COL
+
+.four-col {
+	h2 {
+		margin-top: 95px;
+		color: #222626;
+		font-family: "Open Sans";
+		font-size: 35px;
+		font-weight: 300;
+		line-height: 24px;
+	}
+	h4 {
+		margin-top: 65px;
+		color: #67676d;
+		font-family: "Open Sans - Semibold";
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 24px;
+	}
+	p {
+		margin-top: 25px;
+		color: #959595;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
 	}
 }
