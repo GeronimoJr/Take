@@ -78,14 +78,14 @@ $take-green: #82ca9c;
 		margin-bottom: 380px;
 	}
 	.iphone {
-		width: 600px;
+		width: 700px;
 		height: 990px;
 		background: url('http://i63.tinypic.com/op2o9l.png');
 		background-size: cover;
 		background-position: center;
 		position: absolute;
 		top: 260px;
-		left: 845px;
+		left: 793px;
 	}
 }
 
@@ -109,6 +109,96 @@ $take-green: #82ca9c;
 		margin: 30px 0;
 	}
 	.text-under-iphone {
-			margin-top: 239px;
+			margin-top: 237px;
+	}
+}
+
+// BOX-GRID
+
+.box-grid {
+	margin-top: 53px;
+	.container-fluid {
+		h3 {
+			color: #ffffff;
+			font-family: "Open Sans";
+			font-size: 30px;
+			font-weight: 300;
+			padding-top: 51px;
+			margin: 0;
+		}
+		p {
+			color: #ffffff;
+			font-family: "Open Sans";
+			font-size: 13px;
+			font-weight: 400;
+			line-height: 24px;
+			padding-top: 24px;
+		}
+		a {
+			display: inline-block;
+			color: #ffffff;
+			font-family: "Open Sans";
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 24px;
+			margin-top: 30px;
+			margin-bottom: 59px;
+			transition: .5s;
+			span {
+				font-family: "Arial MT";
+				font-weight: 400;
+			}
+			&:hover {
+				text-decoration: none;
+				font-size: 20px;
+			}
+		}
+		.fa {
+			color: white;
+			font-size: 18px;
+			font-weight: 400;
+			position: absolute;
+			top: 80%;
+			left: 80%;
+		}
+		.design-quality, .built, .our-clients, .shoo-great, .sign-up, .perfect-pictures, .get-start {
+			height: 278px;
+		}
+		.design-quality {
+			background-color: $take-red;
+		}
+		.built {
+			background-color: $take-blue;
+		}
+		@mixin image($image) {
+			background: url($image);
+			background-size: cover;
+			background-position: center;
+			position: relative;
+			opacity: .8;
+			transition: .5s;
+			&:hover {
+				opacity: 1;
+			}
+		}
+		.our-clients {
+			@include image('http://i68.tinypic.com/2djcg0p.jpg');
+		}
+		.shoo-great {
+			background-color: $take-purple;
+		}
+		.sign-up {
+			@include image('http://i67.tinypic.com/29x6qnk.jpg');
+			padding-right: 320px;
+			.fa {
+				left: 90%;
+			}
+		}
+		.perfect-pictures {
+			background-color: $take-green;
+		}
+		.get-start {
+			@include image('https://static.pexels.com/photos/671915/pexels-photo-671915.jpeg');
+		}
 	}
 }

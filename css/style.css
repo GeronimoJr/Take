@@ -56,14 +56,14 @@
     margin-top: 20px;
     margin-bottom: 380px; }
   .masthead .iphone {
-    width: 600px;
+    width: 700px;
     height: 990px;
     background: url("http://i63.tinypic.com/op2o9l.png");
     background-size: cover;
     background-position: center;
     position: absolute;
     top: 260px;
-    left: 845px; }
+    left: 793px; }
 
 .text h2 {
   color: #222626;
@@ -80,6 +80,86 @@
   line-height: 24px;
   margin: 30px 0; }
 .text .text-under-iphone {
-  margin-top: 239px; }
+  margin-top: 237px; }
+
+.box-grid {
+  margin-top: 53px; }
+  .box-grid .container-fluid h3 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 51px;
+    margin: 0; }
+  .box-grid .container-fluid p {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 24px; }
+  .box-grid .container-fluid a {
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 30px;
+    margin-bottom: 59px;
+    transition: .5s; }
+    .box-grid .container-fluid a span {
+      font-family: "Arial MT";
+      font-weight: 400; }
+    .box-grid .container-fluid a:hover {
+      text-decoration: none;
+      font-size: 20px; }
+  .box-grid .container-fluid .fa {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    top: 80%;
+    left: 80%; }
+  .box-grid .container-fluid .design-quality, .box-grid .container-fluid .built, .box-grid .container-fluid .our-clients, .box-grid .container-fluid .shoo-great, .box-grid .container-fluid .sign-up, .box-grid .container-fluid .perfect-pictures, .box-grid .container-fluid .get-start {
+    height: 278px; }
+  .box-grid .container-fluid .design-quality {
+    background-color: #f5989d; }
+  .box-grid .container-fluid .built {
+    background-color: #615f7d; }
+  .box-grid .container-fluid .our-clients {
+    background: url("http://i68.tinypic.com/2djcg0p.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: .8;
+    transition: .5s; }
+    .box-grid .container-fluid .our-clients:hover {
+      opacity: 1; }
+  .box-grid .container-fluid .shoo-great {
+    background-color: #bd8cbf; }
+  .box-grid .container-fluid .sign-up {
+    background: url("http://i67.tinypic.com/29x6qnk.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: .8;
+    transition: .5s;
+    padding-right: 320px; }
+    .box-grid .container-fluid .sign-up:hover {
+      opacity: 1; }
+    .box-grid .container-fluid .sign-up .fa {
+      left: 90%; }
+  .box-grid .container-fluid .perfect-pictures {
+    background-color: #82ca9c; }
+  .box-grid .container-fluid .get-start {
+    background: url("https://static.pexels.com/photos/671915/pexels-photo-671915.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: .8;
+    transition: .5s; }
+    .box-grid .container-fluid .get-start:hover {
+      opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
